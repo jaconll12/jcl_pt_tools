@@ -4,14 +4,19 @@ playground of creating a docker image for some Pen testing tools I may need anyw
 This is my first docker container that has some simple pen testing tools loaded as a toolkit to take anywhere I need.
 
 Tools are:
-nmap
-dirb
+netcat
+Nmap
+nano
 wfuzz
+dirt
+nikto
 curl
-wget
-sqlmap
 git
-python3
+sqlmap
+wget
+whois
+vim
+searchsploit
 
 To run the docker image run the command:
 docker run -it jacoll/jcl_pt_tools
